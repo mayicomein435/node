@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "7aee9be5-cadd-4541-aa6e-e8e54be3fa31",
+		"name": "File Management API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35084501"
+	},
+	"item": [
+		{
+			"name": "file-creation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/create-file",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"create-file"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
